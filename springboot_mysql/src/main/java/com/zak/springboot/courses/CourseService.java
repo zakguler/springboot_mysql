@@ -20,9 +20,9 @@ public class CourseService {
 		return courses;
 	}
 	
-	public Course getCourse(String id) {
-		return courseRepository.findOne(id);
-	}
+//	public Course getCourse(String id) {
+//		return courseRepository.findOne(id);
+//	}
 
 	public void addCourse(Course course) {
 		courseRepository.save(course);
@@ -33,7 +33,7 @@ public class CourseService {
 	}
 
 	public void deleteCourse(String id) {
-		courseRepository.delete(id);
+		courseRepository.deleteById(id);
 	}
 
 }

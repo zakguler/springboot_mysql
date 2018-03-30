@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/hello")
 	public String sayHi() {
-		return "Hi from spring boot";
+		return "Spring/MySQL: Hi from spring boot";
 	}
 	
 }

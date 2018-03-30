@@ -27,11 +27,11 @@ public class TopicService {
 		return topics;
 	}
 	
-	public Topic getTopic(String id) {
-//		Topic topic = topics.stream().filter(e -> e.getId().equalsIgnoreCase(id)).findFirst().get();
-//		return topic;
-		return topicRepository.findOne(id);
-	}
+//	public Topic getTopic(String id) {
+////		Topic topic = topics.stream().filter(e -> e.getId().equalsIgnoreCase(id)).findFirst().get();
+////		return topic;
+//		return topicRepository.findOne(id);
+//	}
 
 	public void addTopic(Topic topic) {
 		//topics.add(topic);
@@ -46,7 +46,7 @@ public class TopicService {
 
 	public void deleteTopic(String id) {
 //		topics.removeIf(e-> e.getId().equalsIgnoreCase(id));
-		topicRepository.delete(id);
+		topicRepository.deleteById(id);
 	}
 
 }

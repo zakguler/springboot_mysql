@@ -30,7 +30,8 @@ public class TopicController {
 //	public Topic getTopic(@PathVariable("foo") String id) {		
 	@RequestMapping("/topics/{id}")
 	public Topic getTopic(@PathVariable String id) {		
-		return topicService.getTopic(id);	
+//		return topicService.getTopic(id);
+		return null;
 	}
 
 	@RequestMapping(method=RequestMethod.POST, value="/topics") //<==== "POST" ADD new request

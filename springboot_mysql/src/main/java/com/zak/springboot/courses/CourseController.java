@@ -32,7 +32,8 @@ public class CourseController {
 //	public Topic getCourse(@PathVariable("foo") String id) {		
 	@RequestMapping("/topics/{topicId}/courses/{id}")	//<============ "GET" is the default
 	public Course getCourse(@PathVariable String id) {		
-		return courseService.getCourse(id);	
+//		return courseService.getCourse(id);	
+		return null;
 	}
 
 	@RequestMapping(method=RequestMethod.POST, value="/topics/{topicId}/courses") //<==== "POST" ADD new request
