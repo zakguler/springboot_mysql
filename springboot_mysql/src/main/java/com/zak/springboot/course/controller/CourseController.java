@@ -1,4 +1,4 @@
-package com.zak.springboot.courses;
+package com.zak.springboot.course.controller;
 
 
 import java.util.List;
@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.zak.springboot.topic.Topic;
+import com.zak.springboot.course.model.Course;
+import com.zak.springboot.course.service.CourseService;
+import com.zak.springboot.topic.model.Topic;
 
 @RestController
 public class CourseController {

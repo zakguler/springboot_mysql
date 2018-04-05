@@ -1,4 +1,4 @@
-package com.zak.springboot.topic;
+package com.zak.springboot.topic.controller;
 
 
 import java.util.List;
@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.zak.springboot.topic.model.Topic;
+import com.zak.springboot.topic.service.TopicService;
 
 @RestController
 public class TopicController {

@@ -1,4 +1,4 @@
-package com.zak.springboot.topic;
+package com.zak.springboot.topic.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,6 +6,8 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.zak.springboot.topic.model.Topic;
 
 @Service	//<================= business services are singleton
 public class TopicService {

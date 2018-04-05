@@ -1,10 +1,10 @@
-package com.zak.springboot.courses;
+package com.zak.springboot.course.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
-import com.zak.springboot.topic.Topic;
+import com.zak.springboot.topic.model.Topic;
 
 @Entity
 public class Course {

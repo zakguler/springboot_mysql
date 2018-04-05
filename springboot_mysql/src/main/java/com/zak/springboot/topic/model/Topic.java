@@ -1,4 +1,4 @@
-package com.zak.springboot.topic;
+package com.zak.springboot.topic.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
