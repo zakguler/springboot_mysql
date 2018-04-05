@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.zak.springboot.topic.model.Topic;
+import com.zak.springboot.topic.repository.TopicRepository;
 
 @Service	//<================= business services are singleton
 public class TopicService {

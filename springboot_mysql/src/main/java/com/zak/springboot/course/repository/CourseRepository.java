@@ -1,4 +1,4 @@
-package com.zak.springboot.course.service;
+package com.zak.springboot.course.repository;
 
 import java.util.List;
 

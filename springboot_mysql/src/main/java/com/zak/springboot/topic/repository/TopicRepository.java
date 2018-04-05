@@ -1,4 +1,4 @@
-package com.zak.springboot.topic.service;
+package com.zak.springboot.topic.repository;
 
 import org.springframework.data.repository.CrudRepository;
 

@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.zak.springboot.course.model.Course;
+import com.zak.springboot.course.repository.CourseRepository;
 
 @Service	//<================= business services are singleton
 public class CourseService {
